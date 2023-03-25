@@ -1,43 +1,44 @@
-@use '../utils/variables';
-
 .logo {
-  display: flex;
-  align-items: center;
-}
-.page-header {
-  border-bottom: 1px solid $color-border;
-}
-
-.page-header {
-  display: flex;
-  align-items: center;
-}
-
-.logo-webstudio {
-  text-decoration: none;
-  line-height: 1.19;
-  font-size: 26px;
-  font-weight: $fontMedium;
-  letter-spacing: 0.03em;
   font-family: $familyRaleway;
-  padding: 24px 93px 25px 0;
+  font-weight: $fontMedium;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: $main-color;
 }
-.title-footer__logo > a {
-  @extend .logo-webstudio;
-  padding: 0;
+.logo--accent {
+  color: $blue-color;
 }
-.logo-webstudio__web {
-  color: $color-blue;
-}
-.title-footer__logo-web {
-  @extend .logo-webstudio__web;
-  text-decoration: none;
+.logo--white {
+  display: block;
+  margin-bottom: 20px;
+  color: $white-color;
 }
 
-.logo-webstudio__studio {
-  color: $color-studio;
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .logo.logo--white {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
 }
-.title-footer__logo-studio {
-  color: $color-white;
-  text-decoration: none;
+@media screen and (min-width: 768px) {
+  .logo {
+    display: inline-block;
+  }
+  .logo.logo--white {
+    margin-top: 0;
+    display: block;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .logo {
+    margin-right: 93px;
+    margin-top: 24px;
+    margin-bottom: 25px;
+  }
+  .logo.logo--white {
+    text-align: left;
+  }
 }

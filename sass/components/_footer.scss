@@ -134,7 +134,7 @@
   transform: translatey(50%);
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   // @media screen and (min-width: 480px) {
   .title-footer {
     flex-wrap: wrap;
@@ -187,7 +187,7 @@
     margin-bottom: 60px;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   // @media screen and (min-width: 480px) {
   .title-footer__join-us {
     flex-wrap: wrap;
@@ -229,7 +229,7 @@
     align-items: center;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   // @media screen and (min-width: 480px) {
   .title-footer__newsletter {
     flex-wrap: wrap;
