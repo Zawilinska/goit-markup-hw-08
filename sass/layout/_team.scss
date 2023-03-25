@@ -1,3 +1,5 @@
+@use '../utils/variables';
+
 .team {
   &__name {
     font-weight: $fontSmall;
