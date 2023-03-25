@@ -1,3 +1,7 @@
+.section {
+  padding: 94px 0;
+  margin: 0 auto;
+}
 .our-team.section {
   background-color: $background-color-gray;
 }
@@ -9,7 +13,7 @@
   padding-top: 60px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .section {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -25,7 +29,23 @@
     padding-bottom: 60px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) {
+  .why-us.section {
+    padding-top: 60px;
+    padding-bottom: 0;
+  }
+  .our-team.section {
+    padding-bottom: 60px;
+  }
+  .our-customers.section {
+    padding-top: 60px;
+  }
+  .portfolio.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
   .section {
     padding-top: 94px;
     padding-bottom: 94px;
