@@ -2,9 +2,8 @@
 
 .filters {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-
+  justify-content: center;
   margin-bottom: 50px;
 }
 .filters__btn {
@@ -20,7 +19,7 @@
   transition-property: background-color, color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+  margin-right: 10px;
   &:hover,
   &:focus {
     color: $white-color;
@@ -38,8 +37,9 @@
 
 .examples {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 }
 .examples__overlay {
   display: flex;
